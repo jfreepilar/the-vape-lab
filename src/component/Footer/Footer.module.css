@@ -1,0 +1,67 @@
+.sectionFooter {
+    background: #382449;
+    margin: 100px 0 0;
+    font-family: "bebas neue";
+}
+
+.theVapeLab {
+    font-family: "bebas neue";
+    font-size: 2.25rem;
+}
+
+.brandLogo {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 0 0 ;
+}
+
+.iconContainer{
+    background-color: rgba(245, 245, 245, 0.3); 
+    padding: 0px 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 2px 0 0;
+}
+
+.navList {
+    font-size: 1.5rem;
+}
+
+.formMainContainer {
+    padding: 28px 0 0;
+}
+
+.copyright {
+    margin: 100px 0 0 0;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 576px) {
+    .brandLogo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .theVapeLab {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    .navList,
+    .copyright {
+        font-size: 1rem;
+    }
+
+    .formMainContainer {
+        margin: -100px 0 0;
+    }
+}

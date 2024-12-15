@@ -1,0 +1,45 @@
+.sectionThree {
+    background: linear-gradient(to bottom, #ffffff, #d39df0, #ffffff);
+    margin: 120px 0 0 0;
+}
+
+
+.strategyParagraph {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: blueviolet;
+}
+
+.iconContainer {
+    width: 45px;
+    height: 45px;
+    background: blueviolet;
+}
+
+.icon {
+    margin: -10px 0 0;
+    font-size: 1.75rem;
+}
+
+.cardParagraph {
+    color: blueviolet;
+    line-height: 1.25;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 768px) {
+    .strategyParagraph, 
+    .cardParagraph {
+        font-size: 1rem;
+    }
+
+    .icon {
+        margin: -2px 0 0;
+    }
+
+    
+}

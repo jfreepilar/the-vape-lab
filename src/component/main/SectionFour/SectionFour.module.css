@@ -1,0 +1,67 @@
+.sectionFour {
+    padding: 200px 100px 350px;
+    background: #382449;
+    position: relative;
+}
+
+.cloudAbove {
+    position: absolute;
+    width: 100%;
+    top: -2px;
+    left: 0;
+}
+
+.cloudBelow {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.headingParagraph {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 0 1px 0;
+}
+
+.numberContainer {
+    background: #4e3366;
+    width: 48px;
+    height: 44px;    
+}
+
+.numberContainer:hover {
+    cursor: pointer;
+}
+
+.card {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.cardBody {
+    background-color: #4e3366;
+}
+
+.cardBody:hover {
+    cursor: pointer;
+}
+
+.cardParagraph {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    .numberContainer {
+        padding: 8px 0 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .cardParagraph {
+        font-size: 1rem;
+    }
+}

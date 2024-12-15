@@ -1,0 +1,76 @@
+.vapeJuice {
+    position: relative;
+    height: 120vh;
+    width: 50vw;
+    top: 10%;
+    left: 23%;
+    z-index: 1;
+}
+
+.splash {
+    position: relative;
+    height: 120vh;
+    width: 65vw;
+    margin: -850px 0 0 100px;
+    z-index: 0;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0));
+}
+
+.leadingBrand {
+    height: 150px;
+    width: 150px;
+}
+
+.paragraph {
+    line-height: 1;
+    letter-spacing: 4px;
+    font-size: 2.25rem;
+    color: blueviolet;
+    font-family: 'bebas neue';
+}
+
+.container {
+    width: 305px;
+}
+
+.icons {
+    text-align: center;
+    font-size: 5rem;
+    padding: 0 0 0 40px;
+}
+
+.iconText {
+    font-size: 1.25rem;
+    color: blueviolet;
+    margin: -20px 0 0;
+}
+
+@media (max-width: 768px) {
+    .paragraph{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .iconText {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .leadingBrand {
+        height: 130px;
+        width: 130px;
+        justify-content: center;
+    }
+    
+    .icons {
+        font-size: 4.25rem;
+    }
+
+    .iconText {
+        font-size: 1rem;
+        margin: -45px 0 0;
+    }
+}
+
+
